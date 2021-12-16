@@ -21,7 +21,7 @@ const io = require('socket.io')(server, {
 server.listen(process.env.PORT || 3001);
 
 
-const url = 'hhttps://diendengiadung.com/api_olymp/api/index.php'
+const url = 'hhttps://diendengiadung.com/api_olymp/api/index.php';
 
 //const url = 'http://192.168.100.22/kse_trade/api/' // locals
 const headers = { 'Authorization': 'Basic b2x5bXAxNjhAZ21haWwuY29tOkAxMjNANDU2' }
